@@ -23,7 +23,7 @@ public class LoginPageLocators {
     @FindBy(xpath = "//*[@href='https://www.linkedin.com/company/orangehrm/mycompany/']")
     public  WebElement linkedInIcon;
     
-    @FindBy(xpath = "//*[@id=\"app\"]/div[1]/div/div[1]/div/div[2]/div[3]/div[1]/a[2]/svg") //Invalid Xpath
+    @FindBy(xpath = "//a[@href='https://www.facebook.com/OrangeHRM/']//*[name()='svg']") //Invalid Xpath
     public  WebElement faceBookIcon;
     
     @FindBy(xpath = "//*[@id='app']/div[1]/div/div[1]/div/div[2]/div[2]/form/div[4]/p")
